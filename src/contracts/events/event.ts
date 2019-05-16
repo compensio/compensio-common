@@ -1,6 +1,6 @@
 export enum EventType {
-    ISSUE,
-    PULL_REQUEST
+    ISSUE = "issue",
+    PULL_REQUEST = "pull_request"
 }
 
 export interface IEvent {
