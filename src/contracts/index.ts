@@ -1,3 +1,3 @@
-export * from "./event";
-export * from "./issue";
-export * from "./pullRequest";
+export * from "./events";
+export * from "./senders";
+export * from "./transformers";
