@@ -1,5 +1,3 @@
-import { IEvent } from "./event";
-
 export enum PullRequestAction {
     ASSIGNED = "assigned",
     UNASSIGNED = "unassigned",

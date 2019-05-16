@@ -7,7 +7,7 @@ export enum EventType {
 }
 
 export interface IEvent {
-    id: string;
     eventType: EventType;
-    eventAction: IssueAction|PullRequestAction
+    eventAction: IssueAction|PullRequestAction;
+    payload: any;
 }
