@@ -1,5 +1,3 @@
-import { IEvent } from "./event";
-
 export enum IssueAction {
     OPENED = "opened",
     EDITED = "edited",
@@ -17,8 +15,4 @@ export enum IssueAction {
     UNLOCKED = "unlocked",
     MILESTONED = "milestoned",
     DEMILESTONED = "demilestoned",
-}
-
-export interface IIssueEvent extends IEvent {
-    action: IssueAction
 }

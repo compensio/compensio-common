@@ -16,7 +16,3 @@ export enum PullRequestAction {
     REOPENED = "reopened",
     MERGED = "merged"
 }
-
-export interface IPullRequestEvent extends IEvent {
-    action: PullRequestAction;
-}
