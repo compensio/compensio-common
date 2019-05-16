@@ -1,5 +1,5 @@
 {
-  "name": "common",
+  "name": "compensio-common",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -23,18 +23,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/compens-io/common.git"
+    "url": "git+https://github.com/compens-io/compensio-common.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/compens-io/common/issues"
+    "url": "https://github.com/compens-io/compensio-common/issues"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/compens-io/common#readme",
+  "homepage": "https://github.com/compens-io/compensio-common#readme",
   "devDependencies": {
     "@types/jest": "^24.0.12",
     "@types/node": "^12.0.0",
