@@ -1,4 +1,4 @@
 export enum TransformerProviderType {
-    GITHUB,
-    NONE
+    GITHUB = "github",
+    NONE = "none"
 }
